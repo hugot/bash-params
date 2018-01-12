@@ -120,7 +120,6 @@ Params::parse() {
           let x++
           item="$1"
         done
-        echo "${var[@]}"
         ;;
       -s | --string)
         if [[ "${expected_types[$i]}" != 'string' ]]; then
